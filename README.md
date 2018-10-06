@@ -6,7 +6,7 @@
 
 3. The graphs are drawn using chart.js, and the file is read using d3, the data is manipulated and grouped using lodash.
 
-###Perspective extentions:
+### Perspective extentions:
 
 1. Accept new files, and analyze them. 
 2. More analysis on the data. Such as when was each source active versus the other, amongst others.
