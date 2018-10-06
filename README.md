@@ -10,5 +10,8 @@ To view project, a web server is required. (brackets editor would be sufficient,
 The graphs are drawn using chart.js, and the file is read using d3, the data is manipulated and grouped using lodash.
 
 ### Perspective extentions:
-1. Accept new files, and analyze them. 
-2. More analysis on the data. Such as when was each source active versus the other, amongst others.
+Accept new files, and analyze them. 
+More analytics on the data: 
+ - when each source or account became active;
+ - statistics on a single account;
+ - 
