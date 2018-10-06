@@ -59,11 +59,8 @@ d3.csv("affiliatedata.csv").get(function(error, data){
     });
     
     //traffic volume by day of the week
-    var day_week = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     var trafficDoW = UtilityModule.getDictLenGeneric(days);
-    trafficDoW.keys = trafficDoW.keys.map(function(day){
-        return day_week[+day];
-    });
+    trafficDoW.keys = UtilityModule.mapDoW(trafficDoW.keys);
     new Chart(document.getElementById("doughnut-chart"), {
         type: 'doughnut',
         data: {
