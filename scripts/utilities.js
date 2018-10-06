@@ -1,6 +1,17 @@
 //Utility Functions
 var UtilityModule = (function(window, undefined) {
     
+    var day_week = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    var mapDoW = function(days) {
+        result = [];
+        result = days.map(function(day){
+            return day_week[+day];
+        });
+        
+        return result;
+    }
+    
     //formatting dictionary data into 2 sync arrays
     var getDictLen = function(dict) {
         var dictKeys = [];
@@ -53,6 +64,7 @@ var UtilityModule = (function(window, undefined) {
         toDate: toDate,
         parseTimestamps: parseTimestamps,
         formatData: formatData,
+        mapDoW: mapDoW
     };
 })(window);
 
