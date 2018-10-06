@@ -8,10 +8,14 @@ To view project, a web server is required. (brackets editor would be sufficient,
 
 After installing brackets, download the zip file in the Clone and Download option. Unzip.
 
-Launch Brackets, File > Open Folder > dashboard_challenge-release. Select index.html, and select Live Preview on the right. 
+Launch Brackets, File > Open Folder > dashboard_challenge-release. 
+
+Click Live Preview on the right. 
 
 ### Dependencies
 The graphs are drawn using chart.js, and the file is read using d3, the data is manipulated and grouped using lodash.
+
+Used bootstrap and jquery to style the page. 
 
 ### Perspective extentions:
 Accept new files, and analyze them. Make share, export buttons functioning. 
